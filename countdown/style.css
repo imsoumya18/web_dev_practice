@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(34, 34, 34);
+}
+
+body {
+    width: auto;
+    height: cover;
+    border: 2px solid yellow;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid green;
+}
