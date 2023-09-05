@@ -18,3 +18,9 @@ let interval = setInterval(function () {
   if (i == 0) clearInterval(interval);
   i--;
 }, 1000);
+
+let reset = document.getElementById("reset");
+
+reset.addEventListener("click", function () {
+  i = 5 * 60;
+});
