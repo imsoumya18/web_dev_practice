@@ -18,11 +18,24 @@ h1 {
     transform: translateX(-50%) translateY(-50%);
 }
 
-#reset {
+#start {
+    padding: 0px 10px;
     font-size: 3em;
     text-align: center;
+    cursor: pointer;
     position: absolute;
-    top: 20%;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#reset {
+    padding: 0px 10px;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
